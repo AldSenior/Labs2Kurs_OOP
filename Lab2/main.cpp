@@ -149,21 +149,21 @@ void calculateAll() {
     cout << "\n=== РАСЧЕТЫ ДЛЯ СПИСКА #" << (currentListIndex + 1) << " ===" << endl;
     cout << fixed << setprecision(2);
 
-    for (size_t i = 0; i < figures.size(); ++i) {
-        double area = figures[i]->calculateArea();
-        double perimeter = figures[i]->calculatePerimeter();
+    // for (size_t i = 0; i < figures.size(); ++i) {
+    //     double area = figures[i]->calculateArea();
+    //     double perimeter = figures[i]->calculatePerimeter();
 
-        totalArea += area;
-        totalPerimeter += perimeter;
+    //     totalArea += area;
+    //     totalPerimeter += perimeter;
 
-        cout << i + 1 << ". " << figures[i]->getType()
-                  << ": площадь = " << area
-                  << ", периметр = " << perimeter << endl;
-    }
+    //     cout << i + 1 << ". " << figures[i]->getType()
+    //               << ": площадь = " << area
+    //               << ", периметр = " << perimeter << endl;
+    // }
 
-    cout << "\nОБЩИЕ РЕЗУЛЬТАТЫ:" << endl;
-    cout << "Суммарная площадь: " << totalArea << endl;
-    cout << "Суммарный периметр: " << totalPerimeter << endl;
+    // cout << "\nОБЩИЕ РЕЗУЛЬТАТЫ:" << endl;
+    // cout << "Суммарная площадь: " << totalArea << endl;
+    // cout << "Суммарный периметр: " << totalPerimeter << endl;
 }
 
 

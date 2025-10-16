@@ -1,0 +1,40 @@
+{
+  "year": 2,
+  "students": [
+    {
+      "number": 1,
+      "fio": "ф ффыыы ф",
+      "birthDate": "21.02 .2222",
+      "rating": 4.2,
+      "residence": "local"
+    },
+    {
+      "number": 2,
+      "fio": "s s s",
+      "birthDate": "22.12.2121",
+      "rating": 4.12,
+      "residence": "nonlocal"
+    },
+    {
+      "number": 3,
+      "fio": "Я",
+      "birthDate": "01.01.2000",
+      "rating": 4.0,
+      "residence": "local"
+    },
+    {
+      "number": 4,
+      "fio": "sыыы s s",
+      "birthDate": "10.02.2025",
+      "rating": 4.0,
+      "residence": "local"
+    },
+    {
+      "number": 5,
+      "fio": "иванн не ч",
+      "birthDate": "01.02.2025",
+      "rating": 4.0,
+      "residence": "local"
+    }
+  ]
+}
